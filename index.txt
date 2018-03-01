@@ -1,0 +1,12 @@
+wxweat='777888'
+master
+<<<<<<< HEAD
+master1
+=======
+ind1
+>>>>>>> ind
+
+
+aaa
+
+222
