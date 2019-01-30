@@ -1,0 +1,281 @@
+---------------------------------------------------------------
+[ 2019-01-19T20:49:18+08:00 ] 127.0.0.1 POST www.tete.com/login
+[运行时间：0.032248s] [吞吐率：31.01req/s] [内存消耗：1,835.55kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:49:18+08:00 ] 127.0.0.1 GET www.tete.com/login
+[运行时间：0.019369s] [吞吐率：51.63req/s] [内存消耗：1,839.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:49:25+08:00 ] 127.0.0.1 POST www.tete.com/login
+[运行时间：0.036688s] [吞吐率：27.26req/s] [内存消耗：1,835.55kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:49:25+08:00 ] 127.0.0.1 GET www.tete.com/login
+[运行时间：0.017198s] [吞吐率：58.15req/s] [内存消耗：1,839.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:40+08:00 ] 192.168.3.47 GET www.tete.com/login?callback=jQuery20205268663441355756_1547902660836&_=1547902660837
+[运行时间：0.090901s] [吞吐率：11.00req/s] [内存消耗：3,521.38kb] [文件加载：88]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index/Open/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Origin' => '*',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+    ),
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9190812672; PHPSESSID=q64ll8ndv5el98m5bs68p16o2j',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.tete.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery20205268663441355756_1547902660836',
+  '_' => '1547902660837',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006154s ] mysql:host=192.168.3.47;port=3306;dbname=qq;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qq_member` [ RunTime:0.030065s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`password`,`gameid`,`nickname`,`group_root`,`group_servertime`,`translate`,`headimgurl` FROM `qq_member` WHERE (  `username` IS NULL ) AND `qq_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000777s ]
+---------------------------------------------------------------
+[ 2019-01-19T20:57:43+08:00 ] 192.168.3.47 GET www.tete.com/login?callback=jQuery20208665057303343868_1547902664322&_=1547902664323
+[运行时间：0.096512s] [吞吐率：10.36req/s] [内存消耗：3,521.38kb] [文件加载：88]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index/Open/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Origin' => '*',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+    ),
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9190812672; PHPSESSID=q64ll8ndv5el98m5bs68p16o2j',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.tete.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery20208665057303343868_1547902664322',
+  '_' => '1547902664323',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006034s ] mysql:host=192.168.3.47;port=3306;dbname=qq;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qq_member` [ RunTime:0.017266s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`password`,`gameid`,`nickname`,`group_root`,`group_servertime`,`translate`,`headimgurl` FROM `qq_member` WHERE (  `username` IS NULL ) AND `qq_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.001108s ]
+---------------------------------------------------------------
+[ 2019-01-19T20:57:52+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.036286s] [吞吐率：27.56req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:52+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.038663s] [吞吐率：25.86req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:56+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.037193s] [吞吐率：26.89req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:56+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.032831s] [吞吐率：30.46req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:57+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.036507s] [吞吐率：27.39req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:57+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.033714s] [吞吐率：29.66req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:58+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.061701s] [吞吐率：16.21req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:58+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.035574s] [吞吐率：28.11req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:59+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.049698s] [吞吐率：20.12req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:57:59+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.028945s] [吞吐率：34.55req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:04+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.039412s] [吞吐率：25.37req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:04+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.021709s] [吞吐率：46.06req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:04+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.033176s] [吞吐率：30.14req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:04+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.021420s] [吞吐率：46.69req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:04+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.041974s] [吞吐率：23.82req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:04+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.024107s] [吞吐率：41.48req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:05+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.033933s] [吞吐率：29.47req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:05+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.022310s] [吞吐率：44.82req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:05+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.036753s] [吞吐率：27.21req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:05+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.023238s] [吞吐率：43.03req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:06+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.030514s] [吞吐率：32.77req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:06+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.022079s] [吞吐率：45.29req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:06+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.038253s] [吞吐率：26.14req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:06+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.023384s] [吞吐率：42.76req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:06+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.034679s] [吞吐率：28.84req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:06+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.022408s] [吞吐率：44.63req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:06+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.029468s] [吞吐率：33.94req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:06+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.021550s] [吞吐率：46.40req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:07+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.033684s] [吞吐率：29.69req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:07+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.027234s] [吞吐率：36.72req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:07+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.050722s] [吞吐率：19.72req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:07+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.026513s] [吞吐率：37.72req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:07+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.036180s] [吞吐率：27.64req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:07+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.019428s] [吞吐率：51.47req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:07+08:00 ] 192.168.3.47 POST www.tete.com/login
+[运行时间：0.032201s] [吞吐率：31.05req/s] [内存消耗：1,835.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:07+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.023929s] [吞吐率：41.79req/s] [内存消耗：1,839.41kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-19T20:58:33+08:00 ] 192.168.3.47 GET www.tete.com/login
+[运行时间：0.068625s] [吞吐率：14.57req/s] [内存消耗：3,520.69kb] [文件加载：88]
+[ info ] [ LANG ] /www/wwwroot/tete/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index/Open/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'cross_domain' => true,
+    'header' => 
+    array (
+      'Access-Control-Allow-Origin' => '*',
+      'Access-Control-Allow-Methods' => 'GET, POST, PATCH, PUT, DELETE',
+      'Access-Control-Allow-Headers' => 'Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-Requested-With',
+    ),
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.tete.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003642s ] mysql:host=192.168.3.47;port=3306;dbname=qq;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qq_member` [ RunTime:0.026183s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`password`,`gameid`,`nickname`,`group_root`,`group_servertime`,`translate`,`headimgurl` FROM `qq_member` WHERE (  `username` IS NULL ) AND `qq_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000958s ]
